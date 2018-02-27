@@ -10,8 +10,8 @@ const Platform = {
     return obj.default;
   },
   inject: platform => {
-    Platform.OS = platform.OS;
-    Platform.Version = platform.Version;
+    Platform['OS'] = platform.OS;
+    Platform['Version'] = platform.Version;
   },
 };
 
